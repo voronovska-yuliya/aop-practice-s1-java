@@ -1,18 +1,16 @@
 package homework.h03;
-public class T1 { public static int hammingDistance(int x, int y) { int count = 0;
-    while (x != 0 || y != 0) {
-        if ((x & 1) != (y & 1)) {
-            count++;
-        }
 
-        x = x >> 1;
-        y = y >> 1;
+// https://leetcode.com/problems/hamming-distance/
+public class T1 {
+  public static int hammingDistance(int firstNumber, int secondNumber) {
+    int differentBitsCount = 0;
+    while (firstNumber != 0 || secondNumber != 0) {
+      if ((firstNumber & 1) != (secondNumber & 1)) {
+        differentBitsCount++;
+      }
+      firstNumber = firstNumber >> 1;
+      secondNumber = secondNumber >> 1;
     }
-
-    return count;
-}
-
-    public static void main(String[] args) {
-        System.out.println(hammingDistance(1, 4));
-    }
+    return differentBitsCount;
+  }
 }
