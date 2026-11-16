@@ -1,34 +1,39 @@
 ### Java Template Repository
 
-### compile
+## Основні команди
 
-```shell
+### Compile
+
 mvn compile
-```
 
-### clean
+### Clean
 
-```shell
 mvn clean
-```
 
-### test
+### Test
 
-```shell
 mvn test
-```
 
-### reformat code
+### Reformat code
 
-```shell
 mvn spotless:apply
-```
 
-### check formatting
+### Check formatting
 
-```shell
 mvn spotless:check
-```
 
+## Як запустити
 
-Direct push protection test
+1. Переконайтеся, що встановлено Java та Maven.
+
+2. Відкрийте термінал у кореневій папці проєкту.
+
+3. Завантажте залежності та зберіть проєкт:
+
+mvn clean install
+
+4. Запустіть тести:
+
+mvn test
+
+## Вимоги
