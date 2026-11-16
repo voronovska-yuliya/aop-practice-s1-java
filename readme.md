@@ -4,43 +4,23 @@
 
 ### Compile
 
-```shell
-
 mvn compile
-
-```
 
 ### Clean
 
-```shell
-
 mvn clean
-
-```
 
 ### Test
 
-```shell
-
 mvn test
-
-```
 
 ### Reformat code
 
-```shell
-
 mvn spotless:apply
-
-```
 
 ### Check formatting
 
-```shell
-
 mvn spotless:check
-
-```
 
 ## Як запустити
 
@@ -50,17 +30,10 @@ mvn spotless:check
 
 3. Завантажте залежності та зберіть проєкт:
 
-```bash
-
 mvn clean install
-
-```
 
 4. Запустіть тести:
 
-```bash
-
 mvn test
 
-```
 ## Вимоги
