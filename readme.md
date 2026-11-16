@@ -30,3 +30,5 @@ mvn spotless:apply
 mvn spotless:check
 ```
 
+
+Direct push protection test
