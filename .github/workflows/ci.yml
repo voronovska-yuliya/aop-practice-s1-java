@@ -29,5 +29,6 @@ jobs:
 
           echo "Checking README..."
 
-          test -f README.md
+          test -f readme.md
+
 
